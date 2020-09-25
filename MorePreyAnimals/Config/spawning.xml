@@ -1,0 +1,19 @@
+<configs>
+    <!--
+        *** Spawn friendly animals ***
+
+        - Add FriendlyAnimals Forest, BurntForest, Desert.
+    -->
+
+    <append xpath="spawning/biome[@name='pine_forest']">
+        <spawn maxcount="10" respawndelay="1" time="Day" entitygroup="FriendlyAnimals" />
+    </append>
+
+    <append xpath="spawning/biome[@name='burnt_forest']">
+        <spawn maxcount="10" respawndelay="1" time="Day" entitygroup="FriendlyAnimals" />
+    </append>
+
+    <append xpath="spawning/biome[@name='desert']">
+        <spawn maxcount="10" respawndelay="1" time="Day" entitygroup="FriendlyAnimals" />
+    </append>
+</configs>

@@ -1,0 +1,14 @@
+<configs>
+    <!--
+        *** Set of Friendly Animals ***
+    -->
+    <append xpath="entitygroups/">
+        <entitygroup name="FriendlyAnimals">
+            <entity name="animalRabbit"     prob="20"/>
+            <entity name="animalChicken"    prob="20"/>
+            <entity name="animalSnake"      prob="20"/>
+            <entity name="animalStag"       prob="20"/>
+            <entity name="animalDoe"        prob="20"/>
+        </entitygroup>
+    </append>
+</configs>
