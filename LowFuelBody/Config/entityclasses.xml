@@ -1,0 +1,9 @@
+<configs>
+    <!--
+        *** Hungy / Thirsty base drain.
+        - Hungry ..... 0.0027, 10/h (default: 0.0083, 30/h)
+        - Thirsty .... 0.0055, 20/h (default: 0.0111, 40/h)
+    -->
+    <set xpath="entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodChangeOT' and not(@tags)]/@value">0.0027</set>
+    <set xpath="entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterChangeOT' and not(@tags)]/@value">0.0055</set>
+</configs>
