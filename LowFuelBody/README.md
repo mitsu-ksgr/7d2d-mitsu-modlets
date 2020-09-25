@@ -8,12 +8,12 @@ Modlet for 7daystodie.
 | Status      | Hungry    | Very Hungry | Starving  |
 |:------------|:----------|:------------|:----------|
 | Debuf rate  | 20% (50%) | 10% (25%)   | 2% (2%)   |
-| Relase      | 22% (52%) | 12% (27%)   | 4% (4%)   |
+| Release     | 22% (52%) | 12% (27%)   | 4% (4%)   |
 
 | Status      | Thirsty   | Dehydrated  | Severely Dehydrated |
 |:------------|:----------|:------------|:----------|
 | Debuf rate  | 20% (50%) | 10% (25%)   | 2% (2%)   |
-| Relase      | 22% (52%) | 12% (27%)   | 4% (4%)   |
+| Release     | 22% (52%) | 12% (27%)   | 4% (4%)   |
 
 - `()` ... default rate.
 
