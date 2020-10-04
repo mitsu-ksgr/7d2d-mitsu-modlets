@@ -1,16 +1,6 @@
 <configs>
-    <!--
-        *** Hungy / Thirsty debuff rate ***
-        - Hungry ..... 20%, 10%, 2% (default: 50%, 25%, 2%)
-        - Thirsty .... 20%, 10%, 2% (default: 50%, 25%, 2%)
-    -->
-    <set xpath="buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffStatusHungry01']/requirement[@name='StatComparePercCurrentToMax']/@value">0.20</set>
-    <set xpath="buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffStatusHungry02']/requirement[@name='StatComparePercCurrentToMax']/@value">0.10</set>
-    <set xpath="buffs/buff[@name='buffStatusHungry01']/effect_group/requirement[@name='StatComparePercCurrentToMax']/@value">0.22</set>
-    <set xpath="buffs/buff[@name='buffStatusHungry02']/effect_group/triggered_effect[@buff='buffStatusHungry01']/requirement[@name='StatComparePercCurrentToMax']/@value">0.12</set>
-
-    <set xpath="buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffStatusThirsty01']/requirement[@name='StatComparePercCurrentToMax']/@value">0.20</set>
-    <set xpath="buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffStatusThirsty02']/requirement[@name='StatComparePercCurrentToMax']/@value">0.10</set>
-    <set xpath="buffs/buff[@name='buffStatusThirsty01']/effect_group/requirement[@name='StatComparePercCurrentToMax']/@value">0.22</set>
-    <set xpath="buffs/buff[@name='buffStatusThirsty02']/effect_group/requirement[@name='StatComparePercCurrentToMax']/@value">0.12</set>
+  <!--
+    Always show Target Bar.
+  -->
+  <set xpath="windows/window[@name='windowTargetBar']/@visibility">always</set>
 </configs>
