@@ -1,0 +1,9 @@
+<configs>
+  <!--
+    *** More Skill Points ***
+      - Max Level: 500 (default: 300)
+      - Get Skill point: 3 (default: 1)
+  -->
+  <set xpath="progression/level/max_level">500</set>
+  <set xpath="progression/level/skill_points_per_level">3</set>
+</configs>
