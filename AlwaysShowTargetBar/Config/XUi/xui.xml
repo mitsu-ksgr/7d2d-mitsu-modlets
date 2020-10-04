@@ -1,0 +1,6 @@
+<configs>
+  <!--
+    Always show Target Bar.
+  -->
+  <set xpath="windows/window[@name='windowTargetBar']/@visibility">always</set>
+</configs>
