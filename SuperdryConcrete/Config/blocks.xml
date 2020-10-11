@@ -1,0 +1,8 @@
+<configs>
+    <!--
+        *** Concrete dry faster ***
+        - RConcrete ... Reinforced concrete block
+    -->
+    <set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">1</set>
+    <set xpath="/blocks/block[@name='pouredRConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">1</set>
+</configs>

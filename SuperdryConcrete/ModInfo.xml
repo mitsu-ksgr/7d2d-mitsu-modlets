@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="KyokudoKansoConcrete" />
+    <Description value="Concrete: kyokudo kanso (shinasai)" />
+    <Author value="mitsu-ksgr" />
+    <Version value="19.0.1.0" compat="A19" />
+  </ModInfo>
+</xml>
