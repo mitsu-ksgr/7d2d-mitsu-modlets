@@ -5,5 +5,5 @@
 
     <passive_effect name="BlockDamage" operation="base_set" value="20.7" tags="perkMiner69r,miningTool"/>
   -->
-  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">108.0</set>
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">150.0</set>
 </configs>
