@@ -1,0 +1,9 @@
+<configs>
+  <!--
+    *** Increase block damage of the Auger ***
+    - Block Damage ... 75.0 (default: 20.7)
+
+    <passive_effect name="BlockDamage" operation="base_set" value="20.7" tags="perkMiner69r,miningTool"/>
+  -->
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">75.0</set>
+</configs>
